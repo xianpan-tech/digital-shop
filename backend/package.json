@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0",
+    "redis": "^4.6.13",
+    "uuid": "^9.0.1"
+  },
+  "main": "src/index.js",
+  "name": "digital-shop-backend",
+  "private": true,
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "type": "commonjs",
+  "version": "1.0.0"
+}

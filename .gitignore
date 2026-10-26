@@ -1,0 +1,8 @@
+.env
+.env.local
+node_modules/
+.next/
+backend/certs/
+nginx/certs/
+*.log
+.DS_Store
